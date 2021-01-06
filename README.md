@@ -125,3 +125,5 @@ odoo.rpc_call('/web/dataset/call_kw', params)
 ## License
 This project is licensed under the MIT License 
 
+## Acknowledgements
+This project was built upon previous versions. It is a fork of AlexisReverte's Node.js library.
