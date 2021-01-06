@@ -1,0 +1,28 @@
+{
+  "name": "odoo-react",
+  "version": "1.0.0",
+  "description": "Odoo React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-helmy/Odoo-React.git"
+  },
+  "keywords": [
+    "odoo",
+    "react",
+    "react-native",
+    "jsonrpc"
+  ],
+  "author": "Mohamed Helmy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamed-helmy/Odoo-React/issues"
+  },
+  "homepage": "https://github.com/mohamed-helmy/Odoo-React#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
