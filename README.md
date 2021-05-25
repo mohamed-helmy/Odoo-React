@@ -5,11 +5,11 @@ React library for Odoo using the axios API and JSON-RPC.
 ## Installation
 
 ```bash
-$ npm install react-odoo
+$ npm i odoo-react
 ```
 or
 ```bash
-$ yarn add react-odoo
+$ yarn add odoo-react
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Please refer to the Odoo [API documentation](https://www.odoo.com/documentation/
 **Creating Odoo connection instance**
 Before executing any kind of query operations, a connection instance must be established either with a username/password or with a previously retrieved session id.
 ```js
-import Odoo from 'react-odoo'
+import Odoo from 'odoo-react'
 const odoo = new Odoo({
   host: 'YOUR_SERVER_ADDRESS',
   port: 8069, /* Defaults to 80 if not specified */
@@ -27,7 +27,7 @@ const odoo = new Odoo({
   username: 'YOUR_USERNAME', /* Optional if using a stored session_id */
   password: 'YOUR_PASSWORD', /* Optional if using a stored session_id */
   session_id: 'YOUR_SESSION_ID', /* Optional if using username/password */
-  context = 'Your_Context', /* Optional Like Change Language */
+  context : 'Your_Context', /* Optional Like Change Language */
 })
 
 ```
